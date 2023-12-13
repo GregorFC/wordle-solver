@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Setup {
 
-    public static String goal(int wordLength) {
+    public static String randomWord(int wordLength) {
         ArrayList<String> words = readWords(wordLength);
         int index = (int) (Math.random() * words.size());
         return words.get(index);
